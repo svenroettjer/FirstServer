@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<body>
+<!--script src="highcharts.js"></script-->
+<h1>Hello!</h1>
+Prima, Du hast Dich auf meinen NodeJS Server verirrt :-)
+
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<!--script src="http://localhost:8080/highcharts2.js"></script-->
+<div id="container" style="height: 400px"></div>
+    <script>
+
+        var chart = new Highcharts.Chart({
+
+        response.write("chart: {renderTo: 'container'}, xAxis: {type: 'datetime'},");
+        series: [{
+        data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4],
+        pointStart: Date.UTC(2012, 0, 1),
+        pointInterval: 24 * 3600 * 1000, }]
+        });
+
+    </script>
+
+<!--div id="container" style="height: 300px"></div-->
+</body>
+</html>

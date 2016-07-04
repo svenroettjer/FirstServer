@@ -1,4 +1,3 @@
-
 console.log('highcharts');
 var chart = new Highcharts.Chart({
 
