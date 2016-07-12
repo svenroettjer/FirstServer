@@ -7,6 +7,8 @@ var path = require('path');
 // define port
 const PORT = 8080;
 
+var jiraworker = require('./jiraworker.js');
+jiraworker.run();
 
 dispatcher.setStatic('resources');
 dispatcher.setStaticDirname('.');
